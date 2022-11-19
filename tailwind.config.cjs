@@ -17,7 +17,11 @@ module.exports = {
         bg_ligth_grey: '#F3EDFB',
         bg_ligth_purple: '#F3EDFB',
         bg_gradient: 'linear-gradient(90deg, #80D4F8 0%, #8D4ED8 31.13%, #FF6A60 67.49%, #FC1616 100%)',
-      }
+      },
+      screens: {
+        sm: '375px',
+        lg: '1440px',
+      },
     },
   },
   plugins: [],
