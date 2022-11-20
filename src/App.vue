@@ -7,7 +7,7 @@ import Card from "./components/Card_populaires.vue";
 <template>
   <div class="bg-gradient-to-r from-cyan-500 to-blue-500 lg:px-20 px-4">
     <div class="py-10 flex flex-row justify-between items-center">
-      <img src="/image2.png" />
+      <img src="/image2.png"/>
 
       <div class="hidden lg:flex flex-row justify-between items-center w-full">
         <nav class="pl-10">
@@ -45,15 +45,56 @@ import Card from "./components/Card_populaires.vue";
   </div>
 
   </div>
-  <div class="flex flex-row max-w-sm justify-between">
+  <div class="flex flex-row max-w-sm justify-between mt-40 mb-8">
     <div class="text-txt_black mx-4">LES PLUS POPULAIRES &#x1F525</div>
       <div class="flex flex-row">
         <img src="Vector%202%20(1).png" class= "mr-2.5" >
         <img src="Vector%201%20(1).png" class="mr-4 ml-2.5">
       </div>
   </div>
-  <Card image="Avion.png" title="MANAGEMENT & LEADERSHIP" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB" emoji3="&#x1F468;&#x200D;&#x1F3EB"/>
-  <div class="text-txt_black mx-4">TOUTES LES FORMATIONS &#x1F680</div>
+  <div class="lg:flex lg:items-center lg:justify-between">
+  <Card class="rounded-3xl shadow" image="avion.png" title="MANAGEMENT & LEADERSHIP" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB" emoji3="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="hidden md:block mt-6 rounded-3xl shadow" image="Intersect9.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="hidden md:block mt-6 rounded-3xl shadow" image="Intersect10.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="hidden md:block mt-6 rounded-3xl shadow" image="Intersect11.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB" emoji3="&#x1F468;&#x200D;&#x1F3EB"/>
+  </div>
+    <div class="text-txt_black mt-20 mx-4">TOUTES LES FORMATIONS &#x1F680</div>
+  <div class="lg:flex lg:items-center lg:justify-between">
+  <Card class="mt-6 rounded-3xl shadow" image="Intersect.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB" emoji3="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="mt-6 rounded-3xl shadow" image="Intersect8.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="mt-6 rounded-3xl shadow" image="Intersect2.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="hidden md:block mt-6 rounded-3xl shadow" image="Intersect12.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB"/>
+  </div>
+    <div class="lg:flex lg:items-center lg:justify-between">
+  <Card class="hidden md:block mt-6 rounded-3xl shadow" image="Intersect13.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="hidden md:block mt-6 rounded-3xl shadow" image="Intersect14.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="hidden md:block mt-6 rounded-3xl shadow" image="Intersect15.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="mt-6 rounded-3xl shadow" image="Intersect3.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+    </div>
+      <div class="lg:flex lg:items-center lg:justify-between">
+      <Card class="mt-6 rounded-3xl shadow" image="Intersect4.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="mt-6 rounded-3xl shadow" image="Intersect5.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB" emoji3="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="mt-6 rounded-3xl shadow" image="Intersect6.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+  <Card class="mt-6 rounded-3xl shadow" image="Intersect7.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+      </div>
+    <div class="lg:mr-20 lg:w-44 lg:ml-[1167px] flex flex-row  justify-around mt-16 mx-16">
+    <p class="text-txt_orange">1</p>
+    <p class="text-txt_grey">2</p>
+    <p class="text-txt_grey">3</p>
+    <p class="text-txt_grey">4</p>
+    <p class="text-txt_grey">...</p>
+    <p class="text-txt_grey">8</p>
+    </div>
+
+  <div class="lg:mx-72 bg-bg_ligth_purple text-center mx-4 mt-12 rounded-3xl py-6">
+    <h1 class="bg-bg_gradient text-2xl">C'est votre dernier mot ?</h1>
+    <h2 class="text-txt_black mt-4">Si vous n'avez pas trouvé ce que vous cherchez, dites-le nous</h2>
+    <div class="lg:flex lg:flex-row lg:items-center lg:justify-center">
+    <div class="text-txt_white px-4 py-3 rounded-full bg-txt_purple mx-6 mt-6">Je prends contact</div>
+    <div class="text-txt_black bg-bg_ligth_purple border-2 border-orange-500 mx-6 mt-6 px-4 py-3 rounded-full">Je télécharge le catalogue</div>
+    </div>
+    </div>
+
 </template>
 
 <style scoped>
