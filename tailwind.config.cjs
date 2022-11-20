@@ -20,11 +20,7 @@ module.exports = {
       },
       screens: {
         sm: '375px',
-<<<<<<< HEAD
-        lg: '1440',
-=======
         lg: '1440px',
->>>>>>> 0429ca9305298c031a91843732ffb7a89d7b87bc
       },
     },
   },
