@@ -7,7 +7,7 @@ defineProps(['image','title','text','emoji','emoji2','emoji3'])
 <template>
 
   <div class="flex flex-col mx-4 ">
-    <div id="images" class="mb-7"><img :src="image"></div>
+    <div class="images-perso mb-7"><img :src="image"></div>
     <h1 id="titres" class="mt-7 text-xs">{{title}}</h1>
     <h2 id="textes" class="text-base">{{text}}</h2>
     <div id="emojis" class="flex flex-row justify-between">
@@ -18,8 +18,8 @@ defineProps(['image','title','text','emoji','emoji2','emoji3'])
   </div>
 </template>
 <style scoped>
-#images{
-  width: 100%;
+.images-perso{
+  width: 356px !important;
   margin: 0;
   padding: 0;
 }

@@ -44,20 +44,16 @@ import Card from "./components/Card_populaires.vue";
   </div>
   </div>
 
-<<<<<<< HEAD
-  </div>
-  <div class="flex flex-row max-w-sm justify-between mt-40 mb-8">
-=======
+
   </header>
-  <div class="flex flex-row max-w-sm justify-between">
->>>>>>> fe2af7716e7609beb16a6c49635c858f29544af9
+  <div class="flex lg:w-full flex-row max-w-sm justify-between mt-40 mb-8">
     <div class="text-txt_black mx-4">LES PLUS POPULAIRES &#x1F525</div>
       <div class="flex flex-row">
         <img src="Vector%202%20(1).png" class= "mr-2.5" >
         <img src="Vector%201%20(1).png" class="mr-4 ml-2.5">
       </div>
   </div>
-<<<<<<< HEAD
+
   <div class="lg:flex lg:items-center lg:justify-between">
   <Card class="rounded-3xl shadow" image="avion.png" title="MANAGEMENT & LEADERSHIP" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB" emoji3="&#x1F468;&#x200D;&#x1F3EB"/>
   <Card class="hidden md:block mt-6 rounded-3xl shadow" image="Intersect9.png" title="Thématique 1" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
@@ -99,13 +95,9 @@ import Card from "./components/Card_populaires.vue";
     <div class="text-txt_white px-4 py-3 rounded-full bg-txt_purple mx-6 mt-6">Je prends contact</div>
     <div class="text-txt_black bg-bg_ligth_purple border-2 border-orange-500 mx-6 mt-6 px-4 py-3 rounded-full">Je télécharge le catalogue</div>
     </div>
-    </div>
+  </div>
 
-=======
-  <Card image="Avion.png" title="MANAGEMENT & LEADERSHIP" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB" emoji2="&#x1F468;&#x200D;&#x1F3EB" emoji3="&#x1F468;&#x200D;&#x1F3EB"/>
-  <div class="text-txt_black mx-4">TOUTES LES FORMATIONS &#x1F680</div>
-
-<footer class="bg-txt_black text-white">
+<footer class="bg-txt_black text-white mt-16">
   <div class="block lg:hidden">
     <h3 class="pt-9 pl-3 text-3xl">skillsday</h3>
     <p class="py-5 px-3 text-xs">Skillsday, l’agence du mobile learning qui accompagne la performance des collaborateurs sur des formats courts, ciblés et efficients.</p>
@@ -172,7 +164,7 @@ import Card from "./components/Card_populaires.vue";
   </div>
 
 </footer>
->>>>>>> fe2af7716e7609beb16a6c49635c858f29544af9
+
 </template>
 
 <style scoped>
