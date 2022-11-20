@@ -1,33 +1,23 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-import Card from "./components/Card.vue";
+import Card from "./components/Card_populaires.vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="flex flex-row max-w-sm justify-between">
+    <div class="text-txt_black mx-4">LES PLUS POPULAIRES &#x1F525</div>
+      <div class="flex flex-row">
+        <img src="Vector%202%20(1).png" class= "mr-2.5" >
+        <img src="Vector%201%20(1).png" class="mr-4 ml-2.5">
+      </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
-  <Card title="Mon titre" />
+  <Card image="Image Avion.png" title="MANAGEMENT & LEADERSHIP" text="Accueillir un.e collègue en situation de handicap" emoji="&#x1F468;&#x200D;&#x1F3EB"/>
+  <div class="text-txt_black mx-4">TOUTES LES FORMATIONS &#x1F680</div>
+
+
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
